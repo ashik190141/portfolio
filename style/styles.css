@@ -222,3 +222,51 @@ nav ul{
     margin-top: 50px;
     margin-left: 450px;
 }
+/* footer */
+.contract{
+    display: flex;
+    margin-top: 113px;
+    padding-left: 350px;
+    background: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+}
+.contract-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+    padding-top: 130px;
+}
+.descrip{
+    width: 562px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+    margin-right: 117px;
+}
+label{
+    display: block;
+}
+.formtxt{
+    width: 461px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #757575;
+}
+.txtarea{
+    width: 461px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+    color: #757575;
+    padding-top: 18px;
+    padding-bottom: 134px;
+}
