@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url("/home/ashik/Documents/Code/portfolio/images/header_bg.png")
+    ,url("/home/ashik/Documents/Code/portfolio/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* header and navigation style */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 228px;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    border: 0;
+    padding: 18px 35px;
+    color: #FFFFFF;
+}
+/* banner */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-header{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+}
+.author-name{
+    font-weight: 700;
+    font-size: 55px;
+    color: #181818;
+    margin-top: 5px;
+}
+.author-info{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 585px;
+    height: 60px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.owner{
+    margin-left: 378px;
+    width: 584px;
+    height: 676px;
+}
+/* Main Section */
+.mainsection{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* about section style */
+.about{
+    margin-top: 131px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 150px;
+    text-align: center;
+}
+.aboutme{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.aboutmeinfo{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 46px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+}
+.info-value{
+    color: #474747;
+    font-weight: 700;
+    font-size: 17px;
+}
+.about-info{
+    margin-right: 50px;
+}
